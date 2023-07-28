@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <!-- tailwind and daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="nav-center">
+            <a class="btn btn-ghost normal-case text-xl">Fruit Brush</a>
+          </div>
+          <div class="image">
+            <img src="./image/logo.png">
+          </div>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruit</a></li>
+                    </ul>
+                  </div>
+                 
+                </div>
+                <div class="navbar-right">
+                  <ul class="menu text-base menu-horizontal">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruit</a></li>
+                  </ul>
+                </div>
+                <div class="from-control text-between">
+                  <input type="text" placeholder="search" class="input input:bordered w-24 md:w-auto">
+                </div>
+              </div>
+        </nav>
+        <!-- hero section-->
+        <section>
+            <div class="hero min-h-screen" style="background-image: url(./image/banner1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                    <p class="mb-5">We supply highly quality organic products.</p>
+                    <button class="btn btn-primary">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+      
+        <!-- Categories section -->
+        <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5 my-10"></section>
+        <!-- heading-->
+        <div class="text-left p-5">
+            <h1 class="text-2xl md:text-4xl">Deal of the day</h1>
+            <p class="text-sm">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <!--first card-->
+        <div>
+            <div class="card bg-base-100 p-9 border">
+                <figure><img class="w-36"  src="./fruit6.png" alt="" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title justify-center">12.90$ - 18.85$</h2>
+                  <p class="text-center">Apples</p>
+                  <div class="rating justify-center">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="card-actions justify-center space-y-4 mt-4">
+                   <h4 class="text-sm font-semibold">Details</h4>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!--second card-->
+        <div>
+            <div class="card  bg-base-100 p-9 border">
+                <figure><img class="w-36"  src="./image/fruit7.png" alt="" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title justify-center">12.90$ - 18.85$</h2>
+                  <p class="text-center">Orange</p>
+                  <div class="rating justify-center">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="card-actions justify-center space-y-4 mt-4">
+                   <h4 class="text-sm font-semibold">Details</h4>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!--third card-->
+        <div>
+            <div class="card bg-base-100 p-9 border">
+                <figure><img class="w-36"  src="./image/fruit8.png" alt="" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title justify-center">12.90$ - 18.85$</h2>
+                  <p class="text-center">Red Dragon</p>
+                  <div class="rating justify-center">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="card-actions justify-center space-y-4 mt-4">
+                   <h4 class="text-sm font-semibold">Details</h4>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!--fourth card-->
+        <div>
+            <div class="card bg-base-100 p-9 border">
+                <figure><img class="w-36"  src="./image/fruit9.png" alt="" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title justify-center">12.90$ - 18.85$</h2>
+                  <p class="text-center">Banana</p>
+                  <div class="rating justify-center">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="card-actions justify-center space-y-4 mt-4">
+                   <h4 class="text-sm font-semibold">Details</h4>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="card-actions justify-center space-y-4 mt-4">
+        <button class="btn btn-primary text-center">Shop All</button>
+    </div>
+    <!--section-->
+    <section>
+        <div class="hero min-h-screen" style="background-image: url(./image/banner1.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+               <div class="image text-center space-x-2">
+                <img src="./image/member1.png">
+                <h1 class="card-title ">Awlad Hossain</h1>
+                <p class="text-right">Fruits Expert</p>
+               </div>
+               <div class="image">
+                <img src="./image/member2.png">
+                <h1 class="card-title ">Safia Chowdhury</h1>
+                <p class="text-right">Fruits Expert</p>
+               </div>
+               <div class="image">
+                <img src="./image/member3.png">
+                <h1 class="card-title ">Rokib Hossain</h1>
+                <p class="text-right">Fruits Expert</p>
+               </div>
+               <div class="image">
+                <img src="./image/member4.png">
+                <h1 class="card-title justify-between">Chaity</h1>
+                <p class="text-right">Fruits Expert</p>
+               </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    </header>
+    <main>
+
+    </main>
+    <!--footer-->
+    <footer>
+        <footer class="footer footer-center p-10 bg-base-200fjex-col lg:flex-row text-base-content rounded">
+            <div class="grid grid-flow-col gap-4">
+              <a class="link link-hover">Home</a> 
+              <a class="link link-hover">About Us</a> 
+              <a class="link link-hover">Shop</a> 
+              <a class="link link-hover">All Fruits</a>
+              <a class="link link-hover">Support</a>
+              <a class="link link-hover">My Account</a>
+            </div> 
+            <div>
+              <div class="grid grid-flow-col gap-4">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+              </div>
+            </div> 
+          </footer>
+    </footer>
+</body>
+</html>
